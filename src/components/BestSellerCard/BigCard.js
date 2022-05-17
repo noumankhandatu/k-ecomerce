@@ -34,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
   EntireBox: {
     paddingTop: "20px",
     paddingLeft: "20px",
+    cursor: "pointer",
     paddingRight: "20px",
     width: "400px",
     borderRadius: "10px",

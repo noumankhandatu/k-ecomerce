@@ -66,6 +66,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   img: {
+    cursor: "pointer",
     width: "500px",
     borderRadius: "10px",
     boxShadow: "2px 4px 8px grey",

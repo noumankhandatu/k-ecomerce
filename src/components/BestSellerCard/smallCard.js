@@ -49,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
   RealBox: {
     borderRadius: "10px",
     padding: "20px",
+    cursor: "pointer",
     gridGap: "20px",
     display: "flex",
     width: "550px",
