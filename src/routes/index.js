@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "../components/header";
 import Home from "../components/home";
 import { makeStyles } from "@material-ui/core";
-
+import Footer from "../components/footer";
+import Brands from "../components/brands";
 // remove
 import BestCardSeller from "../components/BestSellerCard";
 import CategoryCard from "../components/CatogreyCard";
@@ -13,6 +14,7 @@ const Routers = () => {
     <Router>
       <Header />
       <div className={classes.image}></div>
+      <Brands />
       <CategoryCard />
       <BestCardSeller />
       <Routes>
@@ -20,6 +22,7 @@ const Routers = () => {
         <Route path="/rent" exact component={<div>Rent</div>} />
         <Route path="/buy" exact component={<div>Buy</div>} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
