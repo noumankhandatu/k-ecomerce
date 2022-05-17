@@ -1,7 +1,25 @@
 import React from "react";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+      non quis exercitationem culpa nesciunt nihil aut nostrum explicabo
+      reprehenderit optio amet ab temporibus asperiores quasi cupiditate.
+      Voluptatum ducimus voluptates voluptas? Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit. Eligendi non quis exercitationem culpa
+      nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab
+      temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates
+      voluptas? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum
+      explicabo reprehenderit optio amet ab temporibus asperiores quasi
+      cupiditate. Voluptatum ducimus voluptates voluptas? ipsum dolor sit amet,
+      consectetur adipisicing elit. Eligendi non quis exercitationem culpa
+      nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab
+      temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates
+      voluptas?
+    </div>
+  );
 };
 
 export default Home;
