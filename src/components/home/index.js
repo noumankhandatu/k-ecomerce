@@ -1,25 +1,8 @@
+import { Box } from "@material-ui/core";
 import React from "react";
-
 const Home = () => {
-  return (
-    <div>
-      Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-      non quis exercitationem culpa nesciunt nihil aut nostrum explicabo
-      reprehenderit optio amet ab temporibus asperiores quasi cupiditate.
-      Voluptatum ducimus voluptates voluptas? Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit. Eligendi non quis exercitationem culpa
-      nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab
-      temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates
-      voluptas? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum
-      explicabo reprehenderit optio amet ab temporibus asperiores quasi
-      cupiditate. Voluptatum ducimus voluptates voluptas? ipsum dolor sit amet,
-      consectetur adipisicing elit. Eligendi non quis exercitationem culpa
-      nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab
-      temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates
-      voluptas?
-    </div>
-  );
+  return <Box mt={10}></Box>;
+  return <div></div>;
 };
 
 export default Home;
